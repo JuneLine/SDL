@@ -1,5 +1,3 @@
-web: gunicorn flask101:app
-
 @app.route('/')
 def Home():
     return render_template('heroku-testing.html', title='Home')
